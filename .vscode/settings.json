@@ -1,0 +1,95 @@
+{
+    "cSpell.words": [
+        "Altium",
+        "Argmaster",
+        "ATMEGA",
+        "drawsvg",
+        "dtype",
+        "endwith",
+        "EOEX",
+        "EOSTMT",
+        "fromarray",
+        "FSLAX",
+        "gerberx",
+        "getpixel",
+        "indygo",
+        "inlinehilite",
+        "IPPOS",
+        "kicad",
+        "linenums",
+        "Linu",
+        "mkdocs",
+        "mkdocstrings",
+        "Moiré",
+        "MOMM",
+        "numpy",
+        "obround",
+        "putpixel",
+        "pydantic",
+        "pygerber",
+        "pygments",
+        "pymdownx",
+        "pyparsing",
+        "qualname",
+        "RGBA",
+        "Roboto",
+        "SOSTMT",
+        "superfences",
+        "tasklist",
+        "Ucamco's",
+        "Xino"
+    ],
+    "python.testing.pytestArgs": ["--log-level=DEBUG", "-s", "-n", "auto"],
+    "ruff.enable": true,
+    "ruff.fixAll": true,
+    "python.analysis.importFormat": "absolute",
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.useLibraryCodeForTypes": true,
+    "emeraldwalk.runonsave": {
+        /* "commands": [
+            {
+                "match": "\\.py$",
+                "cmd": "poetry run <command>"
+            }
+        ]*/
+    },
+    "files.exclude": {
+        "**/.git": false
+    },
+    "python.analysis.fixAll": ["source.convertImportFormat"],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "pygerber",
+            "depth": 10
+        },
+        {
+            "name": "matplotlib",
+            "depth": 2
+        },
+        {
+            "name": "scipy",
+            "depth": 2
+        },
+        {
+            "name": "django",
+            "depth": 2
+        },
+        {
+            "name": "typing_extensions",
+            "depth": 10
+        },
+        {
+            "name": "PIL",
+            "depth": 10
+        }
+    ],
+    "mypy-type-checker.importStrategy": "useBundled",
+    "black-formatter.importStrategy": "fromEnvironment",
+    "cSpell.ignoreWords": ["RRGGBB", "RRGGBBAA"]
+}
