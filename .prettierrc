@@ -3,9 +3,17 @@
     "useTabs": false,
     "endOfLine": "lf",
     "printWidth": 88,
+    "trailingComma": "none",
+    "jsxBracketSameLine": true,
     "overrides": [
         {
-            "files": ["*.html", "*.js", "*.json", "*.prettierrc"],
+            "files": ["*.js"],
+            "options": {
+                "tabWidth": 4
+            }
+        },
+        {
+            "files": ["*.html", "*.json", "*.prettierrc", "*.css"],
             "options": {
                 "tabWidth": 4
             }
@@ -14,12 +22,6 @@
             "files": ["*.md"],
             "options": {
                 "proseWrap": "always"
-            }
-        },
-        {
-            "files": ["*.css"],
-            "options": {
-                "tabWidth": 4
             }
         }
     ]

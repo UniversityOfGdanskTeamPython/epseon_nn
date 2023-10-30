@@ -1,4 +1,4 @@
-Copyright 2023 Krzysztof Wiśniewski, Mateusz Szpyruk, Mateusz Zalewski and Paweł Olszewski
+Copyright 2023 Krzysztof Wiśniewski, Mateusz Szpyruk, Mateusz Zalewski, Paweł Olszewski
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
 software and associated documentation files (the “Software”), to deal in the Software
