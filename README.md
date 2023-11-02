@@ -2,8 +2,8 @@
 
 ## Installation
 
-PEC Framework Data Consumer can be installed using the HTTPS
-[address of the repository](https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer.git):
+PEC Framework Data Consumer can be installed using the HTTPS address of the
+[repository](https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer.git):
 
 ```
 git clone https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer.git
