@@ -81,5 +81,6 @@
     "black-formatter.importStrategy": "useBundled",
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "cSpell.words": ["Argmaster", "mateuszzalewski", "Szpy"]
 }
