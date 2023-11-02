@@ -6,7 +6,7 @@ authors = [
     "Krzysztof Wisniewski <argmaster.world@gmail.com>",
     "Mateusz Szpyruk <mateusz.szpyruk@gmail.com>",
     "Mateusz Zalewski <m.zalewski.924@studms.ug.edu.pl>",
-    "Paweł Olszewski <p.olszewski.436@studms.ug.edu.pl>",
+    "Paweł Olszewski <pawelolszewski.it@gmail.com>",
 ]
 license = "MIT"
 readme = "README.md"
@@ -93,7 +93,9 @@ run-code-quality-checks = [{ cmd = "pre-commit run --all-files -v" }]
 run-unit-tests = [
     { cmd = "pytest --log-level=DEBUG -s -n logical --cov=pec_framework_data_consumer --cov-report=term-missing:skip-covered" },
 ]
-run-type-checks = [{ cmd = "mypy src/pec_framework_data_consumer test/ scripts/" }]
+run-type-checks = [
+    { cmd = "mypy src/pec_framework_data_consumer test/ scripts/" },
+]
 
 [tool.isort]
 profile = "black"
@@ -110,11 +112,11 @@ ignore = [
     "ANN401", # Dynamically typed expressions (typing.Any) are disallowed in {name}
     "ANN101", # Missing type annotation for {name} in method
     "ANN102", # Missing type annotation for {name} in classmethod
-    "D203", # Adding 1 blank line required before class docstring
-    "D205", # Adding 1 blank line required between summary line and description
-    "D213", # Makes sure that multi-line docstring summary start at the second line
-    "UP007", # Use X | Y for type annotations
-    "UP006", # Use {to} instead of {from} for type annotation
+    "D203",   # Adding 1 blank line required before class docstring
+    "D205",   # Adding 1 blank line required between summary line and description
+    "D213",   # Makes sure that multi-line docstring summary start at the second line
+    "UP007",  # Use X | Y for type annotations
+    "UP006",  # Use {to} instead of {from} for type annotation
     "TCH001", # Move application import {} into a type-checking block
     "D105",   # Adding docstrings in all magic methods doesn't make sense, as usually they are just boilerplate to support operators.
     "FIX002", # Line contains TODO, consider resolving the issue
@@ -135,10 +137,7 @@ required-imports = ["from __future__ import annotations"]
 ban-relative-imports = "all"
 
 [tool.ruff.flake8-type-checking]
-runtime-evaluated-base-classes = [
-    "pydantic.BaseModel",
-    "BaseModel",
-]
+runtime-evaluated-base-classes = ["pydantic.BaseModel", "BaseModel"]
 
 
 [tool.mypy] # ANCHOR: tool.mypy

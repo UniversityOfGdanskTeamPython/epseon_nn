@@ -3,7 +3,7 @@
     "endOfLine": "lf",
     "printWidth": 88,
     "trailingComma": "none",
-    "proseWrap": "always"
+    "proseWrap": "always",
     "overrides": [
         {
             "files": ["*.js", "*.html", "*.json", "*.prettierrc", "*.css"],
