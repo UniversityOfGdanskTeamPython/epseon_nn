@@ -26,7 +26,7 @@ poetry shell
 Then You have to install dependencies into this environment:
 
 ```
-poetry install
+poetry install --with=docs
 ```
 
 And pre-commit hooks:
