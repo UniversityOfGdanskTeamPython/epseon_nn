@@ -2,11 +2,16 @@
 
 ## Installation
 
-PEC Framework Data Consumer can be installed using the HTTPS address of the
-[repository](https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer.git):
+PEC Framework Data Consumer can be installed with `pip` from PyPI:
 
 ```
-git clone https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer.git
+pip install pec_framework_data_consumer
+```
+
+Alternatively, it is also possible to install it directly from repository:
+
+```
+pip install git+https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer.git
 ```
 
 ## Development
@@ -53,3 +58,21 @@ with:
 ```
 poetry build
 ```
+
+## Build documentation
+
+To locally build documentation site, first you will need to install all documentation
+related dependencies. This can be achieved with following command:
+
+```
+poetry install --with docs
+```
+
+Afterwards you can invoke `mkdocs` to generate documentation in form of HTML website:
+
+```
+mkdocs build
+```
+
+**Important** this is not how CI builds documentation, do not use this approach to
+upload documentation to GitHub pages.
