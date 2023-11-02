@@ -1015,3 +1015,4 @@ MigrationBackup/
 output.png
 \#*.*
 log/
+requirements*.txt

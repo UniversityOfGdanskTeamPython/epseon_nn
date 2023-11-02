@@ -1,0 +1,22 @@
+# Custom Dictionary Words
+fontawesome
+indygo
+inlinehilite
+Krzysztof
+linenums
+localzone
+Mateusz
+mkdocs
+mkdocstrings
+numpy
+Olszewski
+Paweł
+pygments
+pymdownx
+superfences
+Szpyruk
+tasklist
+timespec
+tzlocal
+Wiśniewski
+Zalewski

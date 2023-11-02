@@ -29,9 +29,9 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
 
-- OS: [e.g. iOS]
-- Python version: [e.g. 3.8.13]
-- Package version: [e.g. 2.0.0]
+-   OS: [e.g. iOS]
+-   Python version: [e.g. 3.8.13]
+-   Package version: [e.g. 2.0.0]
 
 **Additional context**
 

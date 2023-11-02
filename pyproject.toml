@@ -10,9 +10,9 @@ authors = [
 ]
 license = "MIT"
 readme = "README.md"
-homepage = ""
+homepage = "https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer/"
 repository = "https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer/"
-documentation = ""
+documentation = "https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer/"
 keywords = []
 classifiers = [
     "Development Status :: 1 - Planning",

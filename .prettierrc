@@ -4,12 +4,6 @@
     "printWidth": 88,
     "trailingComma": "none",
     "proseWrap": "always",
-    "overrides": [
-        {
-            "files": ["*.js", "*.html", "*.json", "*.prettierrc", "*.css"],
-            "options": {
-                "tabWidth": 4
-            }
-        }
-    ]
+    "bracketSpacing": false,
+    "tabWidth": 4
 }
