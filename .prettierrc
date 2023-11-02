@@ -3,23 +3,12 @@
     "endOfLine": "lf",
     "printWidth": 88,
     "trailingComma": "none",
+    "proseWrap": "always"
     "overrides": [
         {
-            "files": ["*.js"],
+            "files": ["*.js", "*.html", "*.json", "*.prettierrc", "*.css"],
             "options": {
                 "tabWidth": 4
-            }
-        },
-        {
-            "files": ["*.html", "*.json", "*.prettierrc", "*.css"],
-            "options": {
-                "tabWidth": 4
-            }
-        },
-        {
-            "files": ["*.md"],
-            "options": {
-                "proseWrap": "always"
             }
         }
     ]
