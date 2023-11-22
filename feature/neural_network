@@ -20,7 +20,7 @@ directories_list = list((THIS_DIR/"data").glob(pattern="wave.dat*"))
 data_0 = [load_serialized_data_from_file(x.as_posix()) for x in directories_list]
 tensor_0 = torch.Tensor(data_0)
 
-"""Code underneath isn't ready yet."""
+"""The code below is not ready yet."""
 #class SplainNN(nn.Module):
 #    def __init__(self):
 #        super(SplainNN, self).__init__()
