@@ -1,4 +1,6 @@
 # Custom Dictionary Words
+Epseon
+Epseon_NN
 fontawesome
 indygo
 inlinehilite
@@ -10,6 +12,7 @@ mkdocs
 mkdocstrings
 numpy
 Olszewski
+optim
 Paweł
 pygments
 pymdownx

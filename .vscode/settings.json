@@ -86,7 +86,7 @@
     "cSpell.customDictionaries": {
         "custom-dictionary-workspace": {
             "name": "custom-dictionary-workspace",
-            "path": "${workspaceFolder:pec_framework_data_consumer}/.cspell/custom-dictionary-workspace.txt",
+            "path": "${workspaceFolder:epseon_nn}/.cspell/custom-dictionary-workspace.txt",
             "addWords": true,
             "scope": "workspace"
         }
