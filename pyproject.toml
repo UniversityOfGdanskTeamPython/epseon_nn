@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pec_framework_data_consumer"
+name = "epseon_nn"
 version = "0.1.0"
 description = ""
 authors = [
@@ -10,9 +10,9 @@ authors = [
 ]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer/"
-repository = "https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer/"
-documentation = "https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer/"
+homepage = "https://github.com/UniversityOfGdanskTeamPython/epseon_nn/"
+repository = "https://github.com/UniversityOfGdanskTeamPython/epseon_nn/"
+documentation = "https://github.com/UniversityOfGdanskTeamPython/epseon_nn/"
 keywords = []
 classifiers = [
     "Development Status :: 1 - Planning",
@@ -46,6 +46,8 @@ numpy = [
     { version = "^1.24.4", markers = "python_version >= '3.8' and python_version <= '3.11'" },
     { version = "^1.26.1", markers = "python_version >= '3.12' and python_version < '3.13'" },
 ]
+torch = "^2.1.1"
+scikit-learn = "^1.3.2"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.7.0"
@@ -91,10 +93,10 @@ install-hooks = [
 run-code-quality-checks = [{ cmd = "pre-commit run --all-files -v" }]
 # -------------------------------------------------------------------------------------
 run-unit-tests = [
-    { cmd = "pytest --log-level=DEBUG -s -n logical --cov=pec_framework_data_consumer --cov-report=term-missing:skip-covered" },
+    { cmd = "pytest --log-level=DEBUG -s -n logical --cov=epseon_nn --cov-report=term-missing:skip-covered" },
 ]
 run-type-checks = [
-    { cmd = "mypy src/pec_framework_data_consumer test/ scripts/" },
+    { cmd = "mypy src/epseon_nn test/ scripts/" },
 ]
 
 [tool.isort]

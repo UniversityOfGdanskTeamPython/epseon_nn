@@ -1,17 +1,17 @@
-<h1 align="center"> PEC Framework Data Consumer </h1>
+<h1 align="center"> Epseon Neural Networks </h1>
 
 ## Installation
 
-PEC Framework Data Consumer can be installed with `pip` from PyPI:
+Epseon Neural Networks can be installed with `pip` from PyPI:
 
 ```
-pip install pec_framework_data_consumer
+pip install epseon_nn
 ```
 
 Alternatively, it is also possible to install it directly from repository:
 
 ```
-pip install git+https://github.com/UniversityOfGdanskTeamPython/pec_framework_data_consumer.git
+pip install git+https://github.com/UniversityOfGdanskTeamPython/epseon_nn.git
 ```
 
 ## Development
@@ -45,7 +45,7 @@ If they fail or change files, you will have to re-add changes and commit again.
 
 ## Build from source
 
-To build PEC Framework Data Consumer from source make sure you have `poetry` environment
+To build Epseon Neural Networks from source make sure you have `poetry` environment
 activated with:
 
 ```
