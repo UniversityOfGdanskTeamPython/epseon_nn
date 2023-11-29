@@ -3,9 +3,8 @@ name = "epseon_nn"
 version = "0.1.0"
 description = ""
 authors = [
-    "Krzysztof Wisniewski <argmaster.world@gmail.com>",
     "Mateusz Szpyruk <mateusz.szpyruk@gmail.com>",
-    "Mateusz Zalewski <m.zalewski.924@studms.ug.edu.pl>",
+    "Krzysztof Wisniewski <argmaster.world@gmail.com>",
     "Paweł Olszewski <pawelolszewski.it@gmail.com>",
 ]
 license = "MIT"
